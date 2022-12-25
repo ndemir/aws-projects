@@ -1,0 +1,12 @@
+# Ignore Terraform files
+*.tfstate.*
+*.tfstate.backup
+**/.terraform/*
+*.tfvars
+*.tfvars.json
+
+# dependencies
+**/node_modules/*
+# production
+**/build/*
+
